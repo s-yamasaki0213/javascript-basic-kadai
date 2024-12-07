@@ -1,21 +1,11 @@
 let num = 2;
 
 const square = (num) =>{
-    let resault = 2;
 
-    if(num == 0){
+    let resault = num;
+    resault *= resault;
 
-        resault = 1;
 
-    }else{
-
-        for(let i = 1; i < num; i++){
-            resault *= 2;
-            console.log(i);
-        }
-
-    }
-    
     return resault;
 }
 
